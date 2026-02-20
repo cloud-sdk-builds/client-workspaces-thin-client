@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-workspaces-thin-client`](https://www.npmjs.com/package/@aws-sdk/client-workspaces-thin-client/v/3.664.0).
+[`@aws-sdk/client-workspaces-thin-client`](https://www.npmjs.com/package/@aws-sdk/client-workspaces-thin-client/v/3.665.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.664.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.665.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-MZ5HMhEkcAwUMp7V6lKKO0A1Le8Hzlnt1Gpd6h8GsBGe5DYgGOJuj0Mipgwg79DR
+sha384-nDo6Odn4k2qhGp18R6y4tsnWdbPSu93YwnxhjsZjI7t5CTQPpu87u+WSNjgtSzeA
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-workspaces-thin-client": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.664.0/index.min.mjs"
+            "@aws-sdk/client-workspaces-thin-client": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.665.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.664.0/index.min.mjs": "sha384-MZ5HMhEkcAwUMp7V6lKKO0A1Le8Hzlnt1Gpd6h8GsBGe5DYgGOJuj0Mipgwg79DR"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.665.0/index.min.mjs": "sha384-nDo6Odn4k2qhGp18R6y4tsnWdbPSu93YwnxhjsZjI7t5CTQPpu87u+WSNjgtSzeA"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-workspaces-thin-client": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.664.0/index.min.mjs"
+                        "@aws-sdk/client-workspaces-thin-client": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.665.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.664.0/index.min.mjs": "sha384-MZ5HMhEkcAwUMp7V6lKKO0A1Le8Hzlnt1Gpd6h8GsBGe5DYgGOJuj0Mipgwg79DR"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-thin-client@3.665.0/index.min.mjs": "sha384-nDo6Odn4k2qhGp18R6y4tsnWdbPSu93YwnxhjsZjI7t5CTQPpu87u+WSNjgtSzeA"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.664.0`)
+* Always pin to a specific version (`@3.665.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-workspaces-thin-client/blob/refs/tags/3.664.0/LICENSE
+https://github.com/cloud-sdk-builds/client-workspaces-thin-client/blob/refs/tags/3.665.0/LICENSE
 ```
 
 ---
